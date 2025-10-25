@@ -1,0 +1,13 @@
+# make an empty folder and go into it
+mkdir -p ~/projects/uhs-lcoh && cd ~/projects/uhs-lcoh
+
+# turn it into a git repo with a README
+git init
+echo "# uhs-lcoh" > README.md
+git add README.md
+git commit -m "first commit"
+
+# set main as default branch and connect to GitHub
+git branch -M main
+git remote add origin https://github.com/omar-mig/uhs-lcoh.git   # or use SSH: git@github.com:omar-mig/uhs-lcoh.git
+git push -u origin main
