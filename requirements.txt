@@ -1,0 +1,8 @@
+numpy
+matplotlib
+dvc[gdrive]
+pre-commit
+black
+flake8
+isort
+mypy
